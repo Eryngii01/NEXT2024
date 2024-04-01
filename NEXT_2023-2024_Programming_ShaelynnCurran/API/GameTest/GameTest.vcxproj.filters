@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="App\app.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSprite.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image\stb_image.cpp">
+      <Filter>stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicRendererComponent.cpp">
+      <Filter>API\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyControllerComponent.cpp">
+      <Filter>API\Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPhysicsComponent.cpp">
+      <Filter>API\Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRendererComponent.cpp">
+      <Filter>API\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawnerControllerComponent.cpp">
+      <Filter>API\Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>API\Game State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>API\Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="LaneRendererComponent.cpp">
+      <Filter>API\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>API\Update Method</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>API\Physics Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerControllerComponent.cpp">
+      <Filter>API\Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPhysicsComponent.cpp">
+      <Filter>API\Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRendererComponent.cpp">
+      <Filter>API\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectilePhysicsComponent.cpp">
+      <Filter>API\Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileRendererComponent.cpp">
+      <Filter>API\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatRendererComponent.cpp">
+      <Filter>API\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="UIControllerComponent.cpp">
+      <Filter>API\Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPopupRendererComponent.cpp">
+      <Filter>API\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextRendererComponent.cpp">
+      <Filter>API\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>API\Update Method</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="App\app.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\main.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSprite.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image\stb_image.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicRendererComponent.h">
+      <Filter>API\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>API\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerComponent.h">
+      <Filter>API\Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyControllerComponent.h">
+      <Filter>API\Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPhysicsComponent.h">
+      <Filter>API\Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRendererComponent.h">
+      <Filter>API\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawnerControllerComponent.h">
+      <Filter>API\Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>API\Game State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>API\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>API\Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="LaneRendererComponent.h">
+      <Filter>API\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>API\Update Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>API\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectType.h">
+      <Filter>API\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>API\Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>API\Physics Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControllerComponent.h">
+      <Filter>API\Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPhysicsComponent.h">
+      <Filter>API\Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRendererComponent.h">
+      <Filter>API\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectilePhysicsComponent.h">
+      <Filter>API\Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileRendererComponent.h">
+      <Filter>API\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererComponent.h">
+      <Filter>API\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RepeatRendererComponent.h">
+      <Filter>API\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="UIControllerComponent.h">
+      <Filter>API\Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPopupRendererComponent.h">
+      <Filter>API\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextRendererComponent.h">
+      <Filter>API\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>API\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>API\Update Method</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stb_image">
+      <UniqueIdentifier>{61cfc19b-c57e-4021-b530-bac172fcba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{f318918d-bb9f-4402-ae1c-4f72186d16f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\GameObject">
+      <UniqueIdentifier>{b2d58a7c-0693-491e-a38b-432e0cd8898f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Update Method">
+      <UniqueIdentifier>{fcf913a2-de59-48d7-a5c1-8b439af0fd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Factory Method">
+      <UniqueIdentifier>{49128dbf-11e3-4bb5-b80c-02b63d745765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Physics Engine">
+      <UniqueIdentifier>{48cf597c-506d-4876-a66d-e8f6e91ed325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Component">
+      <UniqueIdentifier>{2abeef37-05fd-41b4-8a0b-30ecd9082c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Component\Controller">
+      <UniqueIdentifier>{05b19117-92b5-459c-9934-21f649cea5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Component\Physics">
+      <UniqueIdentifier>{9aed621c-ba75-4c33-a097-3363657b3fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Component\Renderer">
+      <UniqueIdentifier>{8623b114-6e4a-43b3-a322-9f67b0e2f7db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Game State">
+      <UniqueIdentifier>{faf3e0ca-3d20-4ea5-802e-709a5b5eb9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Math">
+      <UniqueIdentifier>{f101f91c-c1b7-44d7-8981-076cf4db408e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>API</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿  BasicRendererComponent.cpp
+  EnemyControllerComponent.cpp
+  EnemyPhysicsComponent.cpp
+  EnemyRendererComponent.cpp
+  EnemySpawnerControllerComponent.cpp
+  GameManager.cpp
+  GameObjectFactory.cpp
+  GameTest.cpp
+  LaneRendererComponent.cpp
+  Level.cpp
+  PhysicsEngine.cpp
+  PlayerControllerComponent.cpp
+  PlayerPhysicsComponent.cpp
+  PlayerRendererComponent.cpp
+  ProjectilePhysicsComponent.cpp
+  ProjectileRendererComponent.cpp
+  RepeatRendererComponent.cpp
+  UIControllerComponent.cpp
+  UIPopupRendererComponent.cpp
+  UITextRendererComponent.cpp
+  Generating Code...
+  Compiling...
+  World.cpp
+  Generating Code...
+  GameTest.vcxproj -> C:\Users\80Cur\Downloads\Ubisoft-Toronto-Competitions-API-Updated\API\x64\Debug\GameTest.exe
+  C:\Users\80Cur\Downloads\Ubisoft-Toronto-Competitions-API-Updated\API\\GameTest\glut\bin\x64\freeglut.dll
+  1 File(s) copied
