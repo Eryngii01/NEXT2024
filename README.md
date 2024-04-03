@@ -1,6 +1,8 @@
 # NEXT2024
 This repository holds my submission package (Slime Wars) for Ubisoft NEXT 2024, including the supplementary documentation, my preparatory research materials and resources used, and the lessons I took away throughout the competition process!
 
+My submission video can be found here: https://youtu.be/ChmotID9-BA
+
 ## Credits
 Before diving into the submission specifics, I would like to take this time to mention all the amazing artwork open to the internet and help that I received to develop my learning that had made my game the game it is today. I couldn't have done it without the help! :)
 
